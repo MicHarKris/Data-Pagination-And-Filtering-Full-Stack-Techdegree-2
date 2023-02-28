@@ -154,8 +154,7 @@ function searchField(list){
 
       //Loops through data array, looking for matches to search term, and adds hits to the searchHits array
       for (let i = 0; i < data.length; i++){
-         if(data[i].name.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            data[i].name.first.toLowerCase().includes(searchTerm.toLowerCase()) || 
+         if(data[i].name.first.toLowerCase().includes(searchTerm.toLowerCase()) || 
             data[i].name.last.toLowerCase().includes(searchTerm.toLowerCase()) || 
             data[i].email.toLowerCase().includes(searchTerm.toLowerCase()) || 
             data[i].registered.date.toLowerCase().includes(searchTerm.toLowerCase()) ){
