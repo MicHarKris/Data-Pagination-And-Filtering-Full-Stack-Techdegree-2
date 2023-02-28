@@ -176,7 +176,7 @@ function searchField(list){
          li.className = 'student-item cf';
          const div = document.createElement('div');
          const h3 = document.createElement('h3');
-         h3.innerText = `No Students`;
+         h3.innerText = `No Results Found`;
 
          //appends li to student list - div to li - h3 to div
          studentList.appendChild(li);
