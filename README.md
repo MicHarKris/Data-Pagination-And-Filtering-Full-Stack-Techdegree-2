@@ -1,6 +1,8 @@
 # Full-Stack Techdegree - Project 2
  Data Pagination and Filtering
 
+'In this project, you'll use a common web development technique known as “pagination” to enhance the usability of a web page.'
+
 This project contains a list of student names and information in the data.js file, and displays 9 students at a time, with a paginated list at the bottom for navigating through the students, one page at a time.
 
 Extra Credit: 
